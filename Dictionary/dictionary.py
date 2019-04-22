@@ -3,8 +3,6 @@ from difflib import get_close_matches
 
 words = json.load(open("data.json"))
 
-#lowercase dictionary
-
 def translate(word):
 
     word = word.lower()
