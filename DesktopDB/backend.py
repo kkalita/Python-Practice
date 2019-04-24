@@ -43,4 +43,3 @@ def update(title, author, year, isbn, id):
     cur.execute("UPDATE book SET title = ?, author = ?, year = ?, isbn = ? WHERE _id = ?", (title, author, year, isbn, id))
     conn.commit()
     conn.close()
-
