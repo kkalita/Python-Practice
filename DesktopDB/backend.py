@@ -44,9 +44,3 @@ def update(title, author, year, isbn, id):
     conn.commit()
     conn.close()
 
-connect()
-#insert("The Earth", "John Smith", 1918, 123666789)
-#print(search(author = "John Smith"))
-#delete(2)
-update("Jupiter", "John Smith", 1918, 123666789, 1)
-print(view())
